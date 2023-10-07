@@ -13,7 +13,7 @@ public class DemoSteps {
 
     @Given("I am on the homepage")
     public void iAmOnTheHomepage() {
-        WebDriverManager.chromedriver().setup();
+WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         homePage = new HomePage(driver);
     }

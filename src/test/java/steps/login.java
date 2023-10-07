@@ -1,4 +1,4 @@
-package steps;
+package Steps;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,6 +13,7 @@ public class login {
 
     @Given("user is on login page")
     public void user_is_on_login_page(){
+        System.out.println("user is on login page");
     }
 
     @When("user enters valid username and password")
